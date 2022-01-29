@@ -1,0 +1,26 @@
+{
+  "name": "GraphQL-Pokemon-Node",
+  "version": "0.0.1",
+  "description": "an node wrapper for https://github.com/favware/graphql-pokemon",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "@favware/graphql-pokemon": "^6.3.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/iamashley0/graphql-pokemon-node"
+  },
+  "license": "GPL-2.0",
+  "keywords": [
+    "pokemon",
+    "graphql",
+    "node"
+  ],
+  "type":"module"
+}
