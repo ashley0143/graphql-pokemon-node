@@ -4,5 +4,16 @@
 
 # GraphQL-Pokemon-Node
 
-**A node wrapper for <a href="https://github.com/favware/graphql-pokemon"> GraphQL-POkemon </a>!**
+**A node wrapper for <a href="https://github.com/favware/graphql-pokemon"> GraphQL-Pokemon </a>!**
+ </div>
  
+ 
+ 
+# Usage
+ ```js
+ import get from "graphql-pokemon-node";
+ 
+ var options = ["num","sprite","species"]
+ 
+ get("dragonite",options")
+ ```
