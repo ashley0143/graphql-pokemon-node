@@ -16,7 +16,7 @@
   "repository": {
     "url": "https://github.com/iamashley0/graphql-pokemon-node"
   },
-  "license": "GPL-2.0",
+  "license": "GPL-3.0",
   "keywords": [
     "pokemon",
     "graphql",
