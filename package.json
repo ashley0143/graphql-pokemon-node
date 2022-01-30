@@ -1,6 +1,6 @@
 {
   "name": "GraphQL-Pokemon-Node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an node wrapper for https://github.com/favware/graphql-pokemon",
   "main": "script.js",
   "scripts": {
