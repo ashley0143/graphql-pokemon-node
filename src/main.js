@@ -1,1 +1,1 @@
-module.exports.get = require("../src/fetch.js");
+module.exports.fecth = require("../src/fetch.js");
