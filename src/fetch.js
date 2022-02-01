@@ -1,6 +1,6 @@
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
-async function get(fetcher, options) {
+module.exports = async function get(fetcher, options) {
   if (!options) var options = "sprite,num,species,color,gender,height,weight";
   return await fetch("https://graphqlpokemon.favware.tech/", {
     method: "POST",
@@ -19,4 +19,3 @@ async function get(fetcher, options) {
   }).then((res) => res.json());
 }
 
-export default get;
