@@ -1,1 +1,1 @@
-export { default as get } from '../src/fetch.js';
+module.exports.get = require("../src/fetch.js");
