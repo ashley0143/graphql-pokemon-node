@@ -19,5 +19,5 @@ const api = require("graphql-pokemon-node")
 
 var options = ["num","sprite","species"]
  
- api.get("dragonite",options")
+ api.fetch("dragonite",options")
  ```
