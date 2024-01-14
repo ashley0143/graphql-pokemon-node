@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 
 async function get(fetcher, options) {
   if (!options) var options = "sprite,num,species,color,gender,height,weight";
-  return await fetch("https://graphqlpokemon.favware.tech/v7", {
+  return await fetch("https://graphqlpokemon.favware.tech/v8", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
